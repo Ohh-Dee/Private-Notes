@@ -2,6 +2,9 @@
 <!--- This is a declaration that this is an HTML -->
 <html><!--- add html open and closing tag follow up with head tags-->
     <head><!-- contains information about webpage-->
+        <!--Create a link tag that is self closing for favicon (Icon for Tabbed website)-->
+        <!--rel = relationship-->
+        <link rel="icon" type="images/jpg" href="images/favicon.JPG">
         <title>My first website</title>
     </head>
     <body><!--Contains visable content on your webpage-->
@@ -14,6 +17,7 @@
             Including another paragraph tag will also make a line break.
         </p>
         <hr><!---Adds a horrazontal line across the whole page-->
+        <h2>Pre tagged formating tags</h2>
         <pre>
             Now using the pre open and /pre closing tags will create pre formated text.
             This works differently than p tags as it will take spaces and breaks from 
@@ -24,21 +28,38 @@
 
         <br>
         <!--img is a self closing tag and does not need a closing tag also you can wrap it with a <a></a> to make it take you to a link-->
-
+<h2> Images</h2>
         <a href="https://en.wikipedia.org/wiki/Penguin"> 
         <img src="images/bird.png" height="200
         " title="Apples" alt="This is a picture of a cutie pie">
         </a>
         <br>
+        <h2>Audio</h2>
         <!--<audio |with autoplay muted|> then <source src(which means source)= path for the song (the type is to ensure cabality)> then </audio>-->
         <audio controls autoplay muted>
             <source src="Audio/careless_whispers.mp3" type="audio/mp3">
         </audio>
 
         <br>
+        <h2>Videos</h2>
         <!--type controls by itself to add controls to play add <a> </a> befoer and after with a target="_blank" href= "link" to make a new 
         link open in a different tab when clicking on the video -->
         <video src="video/videoplayback.mp4" controls type="video/mp4"></video>
+
+        <br>
+        <h2>Text Formating</h2>
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>Italic</i>text</p>
+        <p>This is<u>underlined</u>  text</p>
+        <p>This is<del>deleted</del>  text</p>
+        <p>This is <big>Big</big>  text</p>
+        <p>This is<sub>subscript</sub>  text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <tt>monospaced</tt> text</p>
+        <p>This is <mark>highlighted</mark> text</p>
+        <p>This is<mark style="background-color: aquamarine;">Highlighted</mark> text with CSS</p>
+
 
     </body>
 
