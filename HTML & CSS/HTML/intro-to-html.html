@@ -8,6 +8,20 @@
         <title>My first website</title>
     </head>
     <body><!--Contains visable content on your webpage-->
+        <header style="background-color: pink;">
+            <h1>Welcome To HTML & CSS Notes</h1>
+            <a href="hyperlinks.html">Hyperlinks</a>
+            <hr>
+
+
+        </header>
+
+        <main>
+            <h3>
+                Notes
+            </h3>
+            <image src="images/favicon.JPG" alt="profile picture" width="200px"></image>
+        </main>
         <h1>This is an h1 heading</h1>
         <h2>This is an h2 heading</h2>
         <h3>This is an h3 Heading</h3>
@@ -110,8 +124,8 @@
         <h3>Tables</h3>
         <h4>Store Hours</h4>
 
-        <table border="2"><!--starts the table-->
-            <tr align="center"><!--Creates a table row-->
+        <table border="2" style="background-color: black;"><!--starts the table-->
+            <tr align="center" style="background-color: aqua;"><!--Creates a table row-->
                 <th width="100">Sunday</th><!--Creates a table header within the row as many as needed-->
                 <th width="100">Monday</th>
                 <th width="100">Tuseday</th>
@@ -121,7 +135,7 @@
                 <th width="100">Saturday</th>
 
             </tr>
-            <tr align="center">
+            <tr align="center" style="background-color: whitesmoke;">
                 <!--<td></td> is table data tags-->
                 <td>Closed</td>
                 <td>9-5</td>
@@ -131,7 +145,93 @@
                 <td>9-5</td>
                 <td>10-2</td>
             </tr>
+
+        
         </table>
+
+        <h3>Buttons</h3>
+        <!---Use <button></button> to create a button and use CSS with ; to seperate properties to change properites
+        use <a></a> tags on the outside to hyperlink the button-->
+        <!--Use <script></script> tags for Javascript-->
+
+        
+        <button onclick="doSomething()" style="font-size: 25px; background-color: brown; color:aqua; border-radius: 12px;">Greeting</button>
+        <p id="greeting">Hello</p>
+<!-- The following is Javascript-->
+        <script>
+            function doSomething(){
+                let element = document.getElementById("greeting");
+                if (element.innerHTML === "Hello"){
+                    element.innerHTML = "Goodbye";
+                } else {
+                    element.innerHTML = "Hello"
+                }
+            }
+        </script>
+
+        <h2>Forms</h2>
+        <!--Action sends information to whats after the =
+        method must clarify if its a GET or POST request
+        POST = sensitive data
+        GET = non sensitive-->
+        <form action="index.php" method="POST" enctype="multipart/form-data"><!--mutipart will break data into mutiple parts then when its all recieved it will put it back together-->
+
+            <label for="username">
+                Username:
+            </label>
+            <input id="username" type="text" palceholder="Your Username" minlength="6" maxlength="12" required><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" minlength="6" maxlength="20" required><br>
+            <label for="email"> E-Mail: </label>
+            <input type="email" id='email' placeholder="email@domain.com" required><br>
+
+            <label for="phone"> Phone #: </label>
+            <input type="tel" id="phone" placeholder="123-456-7890" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="bday">Birthdate: </label>
+            <input type="date" id="date"><br>
+
+            <label for="quantity">Quantity: </label>
+            <input type="number" id="quantity" min="0" max="100" value="1"><br>
+
+            <label for="tittle">Title: </label>
+
+            <label for="Mr.">Mr. </label>
+            <input type="radio" id="Mr." value="Mr" name="title">
+
+            <label for="Ms">Ms. </label>
+            <input type="radio"id="Ms." value="Ms." name="title"><br>
+
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="Amex">AMEX</option>
+            </select><br>
+
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">Comment: </label>
+            <textarea id="comment" row="3" cols="25"></textarea><br>
+            <label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+
+
+
+
+
+            <input type="reset"><br>
+            <input type="submit">
+
+        </form>
+ <footer>
+    <hr>
+    Auther: O.D.<br>
+
+    &copy; Copyright reserved<br>
+    <small style="background-color: pink;"><a href="mailto:OD@fake.com">OD@fake.com</a></small>
+ </footer>
 
 
 
