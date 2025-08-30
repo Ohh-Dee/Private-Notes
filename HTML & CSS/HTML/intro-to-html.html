@@ -50,15 +50,89 @@
         <h2>Text Formating</h2>
         <p>This is normal text</p>
         <p>This is <b>bold</b> text</p>
-        <p>This is <i>Italic</i>text</p>
-        <p>This is<u>underlined</u>  text</p>
-        <p>This is<del>deleted</del>  text</p>
-        <p>This is <big>Big</big>  text</p>
-        <p>This is<sub>subscript</sub>  text</p>
+        <p>This is <i>Italic</i> text</p>
+        <p>This is <u>underlined</u> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <big>Big</big> text</p>
+        <p>This is <sub>subscript</sub> text</p>
         <p>This is <sup>superscript</sup> text</p>
         <p>This is <tt>monospaced</tt> text</p>
         <p>This is <mark>highlighted</mark> text</p>
-        <p>This is<mark style="background-color: aquamarine;">Highlighted</mark> text with CSS</p>
+        <p>This is <mark style="background-color: aquamarine;">Highlighted</mark> text with CSS</p>
+
+        <!--Group Together HTML
+        <span> inline container to group elements for styling purposes-->
+        <!--<div> block container to group elements for styling purposes-->
+        <h2>Span and Div Tags</h2>
+
+        <h3><span style="background-color:blueviolet">This is a span title</span></h3>
+
+        <h3><div style="background-color: aquamarine;">This is a div tittle</div></h3>
+
+        <p><span style="background-color: blueviolet;">This is a span sentence</span></p>
+        <p><div style="background-color: aquamarine;">This is a span sentence</div></p>
+
+        <h2>Lists</h2>
+        <!--Unordered List use <ul></ul> and <li></il> within them-->
+        <ul>
+            <h3>Store List</h3>
+            <li>Milk</li>
+            <li>Eggs</li>
+            <li>Bread</li>
+            <li>Coffee Supplies</li>
+            <ul>
+                <li>BEANS</li>
+                <li>Coffee Machine</li>
+            </ul>
+        </ul>
+
+        <!--Ordered List need <ol></ol> tags that mean ordered-->
+        <h3>To do list</h3>
+        <ol>
+            <il>Eat breakfast</il>
+            <il>go to class</il>
+            <il>walk dog</il>
+        </ol>
+
+        <h3>Description List</h3>
+        <!--Description List use <dl></dl> which need terms or <dt></dt> tags in themtags-->
+        <dl style="background-color: lawngreen; border:2px solid">
+            <dt style="color: brown;">Dragon</dt>
+            <dd>a mythical monster resembling a giant reptile, sometimes shown as having wings.<br> 
+                In European tradition the dragon is typically fire-breathing and tends to symbolize chaos <br>or evil, 
+                whereas in East Asia it is usually a beneficent symbol of fertility, associated with<br> water and the heavens.</dd>
+            <dt>Phoenix</dt>
+            <dd>a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself<br> 
+                on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
+
+        </dl>
+
+        <h3>Tables</h3>
+        <h4>Store Hours</h4>
+
+        <table border="2"><!--starts the table-->
+            <tr align="center"><!--Creates a table row-->
+                <th width="100">Sunday</th><!--Creates a table header within the row as many as needed-->
+                <th width="100">Monday</th>
+                <th width="100">Tuseday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+
+            </tr>
+            <tr align="center">
+                <!--<td></td> is table data tags-->
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
+            </tr>
+        </table>
+
 
 
     </body>
