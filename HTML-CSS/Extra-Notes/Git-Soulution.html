@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Shadows+Into+Light&family=Story+Script&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Patrick+Hand&family=Shadows+Into+Light&family=Story+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="extra-notes-style.css">
+
+</head>
+
+<header>
+<h1>Extra Notes</h1>
+
+
+
+
+
+
+</header>
+<body>
+
+<h2 id="title">Live Server Preview Issue</h2>
+
+<pre>There was an issue with the live sever plugin while writing HTML/CSS code where the sever had issues giving live updates due to the folder name having a " " space 
+and a & symbol. 
+</pre>
+
+<img src="reference-images/live server issue.png" width="1000px" height="500">
+
+<pre>
+     This issue could not be fixed by simply renaming the file with a right click in VSCode or in file explorer so I turned to use Git Bash in order to update it without running into errors. 
+</pre>
+
+
+<img src="reference-images/folder error 2.png">
+<br>
+<br>
+<br>
+<pre>
+     Opening the Gitbash terminal I verified that I was in the correct folder path then used the "mv "HTML & CSS" HTML-CSS" command in order to highlight the folder I wanted to change first
+with the " " symbols then a space followed by what I wanted to rename the folders to. This is treated as a delete and add following this I used add and push commit commands in order to save
+these changes and get them staged ready for a push.
+</pre>
+<img src="reference-images/git solution 2.JPG" >
+<br>
+<br>
+<br>
+<br>
+<pre>    Following these changes the live sever viewer worked as it intended. This situation shows how one can overwrite a folder file that is interuppting production by using GitBash as 
+a bypass when windows and VS Code would not allow the modifcation of the folder. 
+</pre>
+</body>
+<footer>
+
+
+</footer>
+</html>

@@ -1,0 +1,42 @@
+h2 {
+  display: inline-block;
+  position: relative;
+  background: black;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: .3em .6em;
+  border-radius: 20px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    width: 79%;
+    border-bottom: 4px dotted black;
+}
+h1 {
+font-family: Story Script, Arial, Helvetica, sans-serif;
+position: relative;
+left: 3%;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    transform: translateX(-50%);
+    left: 3%;
+    width: 10%;
+    border-bottom: 5px solid black;
+}
+
+#title{
+    color: yellow;
+
+}
+
+pre {
+    font-family: "Patrick Hand", Arial, Helvetica, sans-serif;
+}
