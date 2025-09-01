@@ -1,4 +1,9 @@
 h1{
+    border:3px soild yellow;
+ 
+    border-radius: 8px;
+    
+
     font-family: sans-serif, Arial, Helvetica;
     color: rgb(218, 81, 145)
     
@@ -7,6 +12,10 @@ p{
     font-family: "lucida console", 'Courier New', Courier, monospace;
     font-size: 24;
    color: rgb(155, 66, 153)
+   border-bottom: 5px soild rgb(225, 225, 0);
+
+   border-top:10px soild yellow;
+   border-left: 15px dotted red;
 }
 #p3{
     font-family: "Story Script", Arial, Helvetica, sans-serif
