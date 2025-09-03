@@ -85,3 +85,23 @@ console.log(result);
 console.log(students);
 
 console.log(`The following will cover Accepting User input.`)
+
+// How to accept user input
+// 1. EASY WAY = window prompt
+// 2. Professional way = HTML textbox
+
+// First thing is to declare all variable used. 
+// let username = window.prompt(`Whats your Username?`);
+// console.log(username)
+let username;
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myH3").textContent = `Welcome ${username}`;
+}
+
+console.log(`The following will cover Type conversion`)
+
+// type conversion = change the datatype of a value to another
+//                   (strings, numbers, booleans)
+
