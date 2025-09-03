@@ -60,5 +60,28 @@ console.log(`>Following will Cover Arithmetic Operators.<`)
 //                        operators (+, -, *, /)
 //                        
 
+let students = 30;
 
+// students = students + 1
+// students = students - 1
+//students = students * 2
+//students = students / 1
+// students = students ** 2 < this is how you input a exponent
+// students = students % 3; This will give you the remainders
+let extraStudents = students % 3;
 
+// augmented assignment operators
+
+//students += 1; // can do the same with other symbols 
+
+// increment operator increases a variable by one
+// Ex:
+//students++;
+//students--;
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+console.log(result);
+console.log(students);
+
+console.log(`The following will cover Accepting User input.`)
