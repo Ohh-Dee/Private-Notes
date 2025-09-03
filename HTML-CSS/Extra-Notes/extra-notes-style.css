@@ -40,3 +40,14 @@ h1::after {
 pre {
     font-family: "Patrick Hand", Arial, Helvetica, sans-serif;
 }
+
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}
