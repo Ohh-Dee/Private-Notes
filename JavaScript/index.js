@@ -105,3 +105,26 @@ console.log(`The following will cover Type conversion`)
 // type conversion = change the datatype of a value to another
 //                   (strings, numbers, booleans)
 
+console.log(`The following will cover constants`);
+
+// const = a variable that can't be changed
+// once they are assigned once they can not be re-assigned.
+
+const pi = 3.14159;
+let radius;
+let circumference;
+
+//radius = window.prompt(`Enter the radius of a circle`);
+
+
+
+
+document.getElementById("radiusSubmit").addEventListener("click", () => { // This finds the element id with radius Sumbit aka the button
+  const r = Number(document.getElementById("radiusText").value); // reads the radius text which is a string and converts to a number which is constant
+  if (Number.isNaN(r)) {
+    document.getElementById("myPi").textContent = "Please enter a valid number.";
+    return; // the if number checks to see if it really is a number or not and returns to await number input
+  }
+  const circumference = 2 * pi * r; // or 2 * Math.PI * r
+  document.getElementById("myPi").textContent =
+    `The circumference is ${circumference.toFixed(2)}.`;}); // This prints the asnwer and outputs it to the myPi tag
