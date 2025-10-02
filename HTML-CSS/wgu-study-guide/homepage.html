@@ -1,29 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-         <meta charset="utf-8" />
-        <title>D322 Introduction to IT</title>
-        <link rel="icon" href="/HTML-CSS/wgu-study-guide/img/fav.png" sizes="any">
-        <link rel="icon" type="image/svg+xm1" href="/HTML-CSS/wgu-study-guide/img/fav.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="site-header header badge" >
-            <h1>Notes Home Page</h1>
-            <nav aria-label="Main">
-                <ul>
-                    <il>Section 3 Computer Hardware</il>
-                    <il>Section 4 Computer Networks</il>
-                    <il>Section 5 Computer Software</il>
-                    <il>Section 6 Data</il>
-                    <il>Section 7 The Business of IT</il>
-                    <il>Section 8 Ethics</il>
-                </ul>
-            </nav>
+<head>
+  <meta charset="utf-8" />
+  <title>D322 Introduction to IT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        </header>
-    </body>
+  <!-- Favicons -->
+  <link rel="icon" href="img/fav.png" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="img/fav.svg">
 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Notes Home Page</h1>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#sec-3" data-preview="img/sec-3.jpg">Section 3 — Computer Hardware</a></li>
+        <li><a href="#sec-4" data-preview="img/sec-4.jpg">Section 4 — Computer Networks</a></li>
+        <li><a href="#sec-5" data-preview="img/sec-5.jpg">Section 5 — Computer Software</a></li>
+        <li><a href="#sec-6" data-preview="img/sec-6.jpg">Section 6 — Data</a></li>
+        <li><a href="#sec-7" data-preview="img/sec-7.jpg">Section 7 — The Business of IT</a></li>
+        <li><a href="#sec-8" data-preview="img/sec-8.jpg">Section 8 — Ethics</a></li>
+      </ul>
+    </nav>
+  </header>
 
+<!-- Preview panel (sits on top of content near the bottom) -->
+  <div id="nav-preview" aria-hidden="true"><img alt=""></div>
+
+  <!-- Scrollable content with section targets -->
+  <div class="snapwrap">
+    <section id="sec-3" class="section">
+      <div class="container">
+        <h2 class="reveal">Section 3 — Computer Hardware</h2>
+        <p class="reveal">…your notes…</p>
+      </div>
+    </section>
+
+    <section id="sec-4" class="section"><div class="container">
+      <h2 class="reveal">Section 4 — Computer Networks</h2>
+      <p class="reveal">…your notes…</p>
+    </div></section>
+
+    <section id="sec-5" class="section"><div class="container">
+      <h2 class="reveal">Section 5 — Computer Software</h2>
+      <p class="reveal">…your notes…</p>
+    </div></section>
+
+    <section id="sec-6" class="section"><div class="container">
+      <h2 class="reveal">Section 6 — Data</h2>
+      <p class="reveal">…your notes…</p>
+    </div></section>
+
+    <section id="sec-7" class="section"><div class="container">
+      <h2 class="reveal">Section 7 — The Business of IT</h2>
+      <p class="reveal">…your notes…</p>
+    </div></section>
+
+    <section id="sec-8" class="section"><div class="container">
+      <h2 class="reveal">Section 8 — Ethics</h2>
+      <p class="reveal">…your notes…</p>
+    </div></section>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
 </html>
