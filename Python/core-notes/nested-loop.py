@@ -2,8 +2,11 @@
 #   outerloop:
 #      inner loop:
 
+rows = int(input("Enter the number of rows: "))
+columns = int(input("Enter the number of columns: "))
+symbol = input("Enter a symbol to use: ")
 
-for y in range(3):
-    for x in range(1, 11):
-        print(x, end="")
+for y in range(rows):
+    for x in range(columns):
+        print(symbol, end="")
     print()
