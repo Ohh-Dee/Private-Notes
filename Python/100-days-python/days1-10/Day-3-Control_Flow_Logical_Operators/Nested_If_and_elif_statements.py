@@ -10,5 +10,11 @@ if height >= 58:
         print("Your ticket cost $6 dollars.")
     else:
         print("Your ticket cost $5 dollars.")
+    wants_photo = input("Do you want a Photo? (y/n)")
+    if wants_photo == "y":
+        print("That will be an additional $5 dollars.")
+    else:
+        print("Enjoy the ride!")
+
 else:
     print("Sorry, you cannot ride the rollercoaster!")
