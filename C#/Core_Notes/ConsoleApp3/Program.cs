@@ -2,8 +2,13 @@
 
 Console.WriteLine("Please enter a whole number: ");
 
-int myNumber = int.Parse(Console.ReadLine());
+int myNumber = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Enter another whole number: ");
+int myNumber2 = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"The number is {myNumber}");
 
-Console.ReadLine();
+int sumNumber = myNumber + myNumber2;
+
+Console.WriteLine($"The sum of the numbers is {sumNumber}");
+
+Console.ReadKey(); 
