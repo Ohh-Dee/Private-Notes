@@ -55,5 +55,5 @@ kind of like a mock run and will show anything that could go wrong [voliation]
 a voliation is an error that will stop the program to complie.
 
 cargo check would be faster then cargo build as it is not building anything yet still scans
-for errors that would occur from build. 
+for errors that would occur from build.
 */
