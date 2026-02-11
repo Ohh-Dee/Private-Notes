@@ -45,4 +45,8 @@ cargo build --release
 
 if you run cargo clean it will delete your target directory and you can start a cargo build from
 a clean slate.
+
+the command cargo run will build the exe and also run it in one command.
+by default it will run it in debug mode.
+cargo r also does the same thing and adding --quiet will hide the building notes.
 */
