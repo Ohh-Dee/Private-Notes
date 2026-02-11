@@ -1,4 +1,6 @@
 /*
+cargo new [your_rust_proj_name] will create and build a .rs file with the cargo lock and
+cargo toml
 A rust program will typically have many functions.
 Function has their own role.
 No rules on how many functions it is all how you want to organize it
