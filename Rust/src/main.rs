@@ -49,4 +49,11 @@ a clean slate.
 the command cargo run will build the exe and also run it in one command.
 by default it will run it in debug mode.
 cargo r also does the same thing and adding --quiet will hide the building notes.
+
+cargo check will check the source code for any complier voliations but doesnt create a exe
+kind of like a mock run and will show anything that could go wrong [voliation]
+a voliation is an error that will stop the program to complie.
+
+cargo check would be faster then cargo build as it is not building anything yet still scans
+for errors that would occur from build. 
 */
