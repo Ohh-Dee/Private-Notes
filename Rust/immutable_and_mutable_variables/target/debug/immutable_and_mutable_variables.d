@@ -1,0 +1,1 @@
+/home/oscard/RustroverProjects/Private-Notes/Rust/immutable_and_mutable_variables/target/debug/immutable_and_mutable_variables: /home/oscard/RustroverProjects/Private-Notes/Rust/immutable_and_mutable_variables/src/main.rs
