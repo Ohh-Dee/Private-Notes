@@ -8,4 +8,11 @@ fn main() {
 
     gym_reps = 15;
     println!("I just did {gym_reps} reps so far!");
+
+    /*
+    Rust can throw an error with a code, and you can get more information regarding this by using
+    the command rustc --explain {ERROR CODE IN TERMINAL}. You can also visit the rust error code
+    index on the official website for a list of error codes where you can get an explanation within
+    the terminal.
+    */
 }
