@@ -1,0 +1,20 @@
+The following will cover notes regarding Variables and Mutability review.
+
+ Variables
+    > Variable - is a name for a value in the program.
+
+    > Declare a variable with the let keyword.
+
+    > Rust will infer a variable's type from its initial value. We can also explicitly annotate its data type with
+    a : and the type E.X. i32.
+
+    > Rust infers an i32 for an integer(a whole number) and a f64 for a float (a decimal-point number).
+
+ Interpolation
+    > Use {} to inject dynamic values into a string.
+
+    > Write a value inside the {} or pass the value in as an argument to the println! macro.
+
+    > Rust assigns a numeric position to each argument after the string. The count starts at 0
+
+    > The curly braces can reference arguments by their numeric position {0}.
